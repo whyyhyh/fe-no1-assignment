@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>search your movie</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <h1 class="title" onclick="window.location='index.html'">
+    Movie Box </h1>
+
+  <form class="search-box" action="" method="get">
+    <input class="search-txt" id="search-input" type="text" name="" placeholder="search your movie">
+    <button class="search-btn" id="search-button" type="submit">
+    </button>
+  </form>
+  <h3>TOP 6</h3>
+  <div id="movie-list"></div>
+  <div id="movie-modal" class="modal hidden">
+    <div class="modal-content">
+      <span class="close-button">&times;</span>
+      <div id="modal-details"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
